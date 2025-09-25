@@ -8,7 +8,7 @@
 [node name="Room" parent="." instance=ExtResource("1_rwgxs")]
 
 [node name="player" parent="." instance=ExtResource("2_4wyf3")]
-position = Vector2(-48, 32)
+position = Vector2(128, 80)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 anchor_mode = 0

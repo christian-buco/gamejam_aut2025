@@ -1,4 +1,4 @@
-[gd_scene load_steps=86 format=3 uid="uid://d26lvmhgsd0wr"]
+[gd_scene load_steps=87 format=3 uid="uid://d26lvmhgsd0wr"]
 
 [ext_resource type="Script" uid="uid://clsre6kqnhyc8" path="res://scenes/player.gd" id="1_d2wvv"]
 [ext_resource type="Texture2D" uid="uid://02lkvxe0r5e6" path="res://Top_Down_Adventure_Pack_v.1.0/Char_Sprites/char_attack_down_anim_strip_6.png" id="1_y4r1p"]
@@ -12,6 +12,9 @@
 [ext_resource type="Texture2D" uid="uid://dcr6poj0apylo" path="res://Top_Down_Adventure_Pack_v.1.0/Char_Sprites/char_idle_up_anim_strip_6.png" id="8_qfm1y"]
 [ext_resource type="Texture2D" uid="uid://c1dai2aylk6hi" path="res://Top_Down_Adventure_Pack_v.1.0/Char_Sprites/char_run_left_anim_strip_6.png" id="9_fulsm"]
 [ext_resource type="Texture2D" uid="uid://swq753skef50" path="res://Top_Down_Adventure_Pack_v.1.0/Char_Sprites/char_run_up_anim_strip_6.png" id="10_4r5pv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3v2ag"]
+radius = 3.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_60mlk"]
 atlas = ExtResource("1_y4r1p")
@@ -584,8 +587,9 @@ animations = [{
 script = ExtResource("1_d2wvv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 3)
+shape = SubResource("CircleShape2D_3v2ag")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(260, 54)
 sprite_frames = SubResource("SpriteFrames_ljgr3")
 animation = &"idle_down"
