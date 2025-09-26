@@ -1,15 +1,25 @@
-[gd_scene load_steps=3 format=3 uid="uid://mqs64euecs46"]
+[gd_scene load_steps=4 format=3 uid="uid://mqs64euecs46"]
 
 [ext_resource type="PackedScene" uid="uid://8hy7volb2cnf" path="res://scenes/room.tscn" id="1_rwgxs"]
 [ext_resource type="PackedScene" uid="uid://d26lvmhgsd0wr" path="res://scenes/player.tscn" id="2_4wyf3"]
+[ext_resource type="Script" uid="uid://bg1k1l5x1pxhb" path="res://scripts/camera_2d.gd" id="3_4wyf3"]
 
 [node name="world" type="Node2D"]
 
 [node name="Room" parent="." instance=ExtResource("1_rwgxs")]
 
+[node name="Room2" parent="." instance=ExtResource("1_rwgxs")]
+position = Vector2(288, 0)
+
+[node name="Room3" parent="." instance=ExtResource("1_rwgxs")]
+position = Vector2(0, -224)
+
 [node name="player" parent="." instance=ExtResource("2_4wyf3")]
-position = Vector2(128, 80)
+position = Vector2(144, 96)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 anchor_mode = 0
 zoom = Vector2(4.8, 3.68)
+position_smoothing_enabled = true
+position_smoothing_speed = 10.0
+script = ExtResource("3_4wyf3")
