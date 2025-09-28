@@ -1,8 +1,8 @@
 [gd_scene load_steps=10 format=4 uid="uid://bq5hcokgwk6v3"]
 
 [ext_resource type="Script" uid="uid://eqbvmwind6px" path="res://scripts/room.gd" id="1_t12t3"]
-[ext_resource type="Texture2D" uid="uid://ce48iliam10rm" path="res://Top_Down_Adventure_Pack_v.1.0/Dungeon_Tileset.png" id="2_mpegx"]
-[ext_resource type="Texture2D" uid="uid://b3jki38i7p1vm" path="res://Top_Down_Adventure_Pack_v.1.0/Overworld_Tileset.png" id="3_4b5c3"]
+[ext_resource type="Texture2D" uid="uid://ce48iliam10rm" path="res://assets/Top_Down_Adventure_Pack_v.1.0/Dungeon_Tileset.png" id="2_mpegx"]
+[ext_resource type="Texture2D" uid="uid://b3jki38i7p1vm" path="res://assets/Top_Down_Adventure_Pack_v.1.0/Overworld_Tileset.png" id="3_4b5c3"]
 [ext_resource type="PackedScene" uid="uid://cysy3bsu7egq7" path="res://scenes/door.tscn" id="4_2eebj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_14vil"]

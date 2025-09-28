@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d0cttme7wwi02"
+path="res://.godot/imported/06 - Victory!.ogg-87ea16c0c00d71d2762eebcef47887c2.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/xDeviruchi - 16 bit Fantasy & Adventure (2025)/Loopable + one shots/ogg/06 - Victory!.ogg"
+dest_files=["res://.godot/imported/06 - Victory!.ogg-87ea16c0c00d71d2762eebcef47887c2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

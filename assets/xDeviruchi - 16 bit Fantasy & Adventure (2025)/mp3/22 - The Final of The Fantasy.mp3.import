@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b8o8vd345g6q8"
+path="res://.godot/imported/22 - The Final of The Fantasy.mp3-6b1f93a54783467f141e1e3295b1f55a.mp3str"
+
+[deps]
+
+source_file="res://assets/xDeviruchi - 16 bit Fantasy & Adventure (2025)/mp3/22 - The Final of The Fantasy.mp3"
+dest_files=["res://.godot/imported/22 - The Final of The Fantasy.mp3-6b1f93a54783467f141e1e3295b1f55a.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,8 +1,8 @@
 [gd_scene load_steps=13 format=4 uid="uid://8hy7volb2cnf"]
 
 [ext_resource type="Script" uid="uid://eqbvmwind6px" path="res://scripts/room.gd" id="1_14vil"]
-[ext_resource type="Texture2D" uid="uid://ce48iliam10rm" path="res://Top_Down_Adventure_Pack_v.1.0/Dungeon_Tileset.png" id="1_ffxv4"]
-[ext_resource type="Texture2D" uid="uid://b3jki38i7p1vm" path="res://Top_Down_Adventure_Pack_v.1.0/Overworld_Tileset.png" id="2_85yof"]
+[ext_resource type="Texture2D" uid="uid://ce48iliam10rm" path="res://assets/Top_Down_Adventure_Pack_v.1.0/Dungeon_Tileset.png" id="1_ffxv4"]
+[ext_resource type="Texture2D" uid="uid://b3jki38i7p1vm" path="res://assets/Top_Down_Adventure_Pack_v.1.0/Overworld_Tileset.png" id="2_85yof"]
 [ext_resource type="PackedScene" uid="uid://cysy3bsu7egq7" path="res://scenes/door.tscn" id="3_85yof"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_14vil"]
@@ -25,9 +25,9 @@ texture = ExtResource("1_ffxv4")
 5:6/0 = 0
 5:7/0 = 0
 5:8/0 = 0
-5:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -8, 8, 8, 3.2374573, 8, 3.2374573, -8)
+5:8/0/physics_layer_0/polygon_0/points = PackedVector2Array(3.1472912, -8, 8, -8, 8, 8, 3.1472912, 8)
 5:9/0 = 0
-5:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(8, -8, 8, 8, 3.2374573, 8, 3.2374573, -8)
+5:9/0/physics_layer_0/polygon_0/points = PackedVector2Array(3.1472912, -8, 8, -8, 8, 8, 3.1472912, 8)
 5:10/0 = 0
 5:10/0/physics_layer_0/polygon_0/points = PackedVector2Array(-3.956892, -0.8992939, -3.9594965, -4.9747515, 2.9442406, -5.177803, 2.9442406, -8, 8, -8, 8, 8, -8, 8, -8, -0.8992939)
 4:10/0 = 0
@@ -103,11 +103,13 @@ texture = ExtResource("1_ffxv4")
 9:12/0 = 0
 9:11/0 = 0
 9:1/0 = 0
+9:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(3.1472912, -8, 8, -8, 8, 8, 3.1472912, 8)
 9:2/0 = 0
 9:3/0 = 0
 10:3/0 = 0
 10:2/0 = 0
 10:1/0 = 0
+10:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, -3.4173164, -8, -3.3503428, 8, -8, 8)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_jxe34"]
 texture = ExtResource("2_85yof")

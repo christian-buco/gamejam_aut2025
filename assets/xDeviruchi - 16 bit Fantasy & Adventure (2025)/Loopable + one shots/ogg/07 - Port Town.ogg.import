@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dcgj4wo22m3vx"
+path="res://.godot/imported/07 - Port Town.ogg-64acc60bb89281dd414b9a3df4fae77d.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/xDeviruchi - 16 bit Fantasy & Adventure (2025)/Loopable + one shots/ogg/07 - Port Town.ogg"
+dest_files=["res://.godot/imported/07 - Port Town.ogg-64acc60bb89281dd414b9a3df4fae77d.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
