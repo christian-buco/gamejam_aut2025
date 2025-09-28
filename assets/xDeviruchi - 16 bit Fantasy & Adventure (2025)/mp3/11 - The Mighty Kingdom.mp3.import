@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dx4hliicdhfoq"
+path="res://.godot/imported/11 - The Mighty Kingdom.mp3-c627bc28a6abdaa58642ef4476a1ce76.mp3str"
+
+[deps]
+
+source_file="res://assets/xDeviruchi - 16 bit Fantasy & Adventure (2025)/mp3/11 - The Mighty Kingdom.mp3"
+dest_files=["res://.godot/imported/11 - The Mighty Kingdom.mp3-c627bc28a6abdaa58642ef4476a1ce76.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
