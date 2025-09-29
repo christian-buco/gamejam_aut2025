@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dwle8cq01wglv"
+path="res://.godot/imported/13 - Decisive Battle 1 - Don't Be Afraid.mp3-c1886aa799f26fffc834f9d8d9568e55.mp3str"
+
+[deps]
+
+source_file="res://assets/xDeviruchi - 16 bit Fantasy & Adventure (2025)/mp3/13 - Decisive Battle 1 - Don't Be Afraid.mp3"
+dest_files=["res://.godot/imported/13 - Decisive Battle 1 - Don't Be Afraid.mp3-c1886aa799f26fffc834f9d8d9568e55.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c6h8sm56vkpxc"
+path="res://.godot/imported/06 - Victory!.wav-563a4bd68cef13d9f1a8cb12848cdd1c.sample"
+
+[deps]
+
+source_file="res://assets/xDeviruchi - 16 bit Fantasy & Adventure (2025)/Loopable + one shots/wav/06 - Victory!.wav"
+dest_files=["res://.godot/imported/06 - Victory!.wav-563a4bd68cef13d9f1a8cb12848cdd1c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

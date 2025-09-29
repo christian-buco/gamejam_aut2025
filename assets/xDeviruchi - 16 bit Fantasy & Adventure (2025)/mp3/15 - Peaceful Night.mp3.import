@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://sg6gwfwsnjyk"
+path="res://.godot/imported/15 - Peaceful Night.mp3-56c9f0df41c144bce449d2fe5b454bff.mp3str"
+
+[deps]
+
+source_file="res://assets/xDeviruchi - 16 bit Fantasy & Adventure (2025)/mp3/15 - Peaceful Night.mp3"
+dest_files=["res://.godot/imported/15 - Peaceful Night.mp3-56c9f0df41c144bce449d2fe5b454bff.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
