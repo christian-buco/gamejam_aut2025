@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 # Speed in pixels per second
-@export var speed: float = 200
+@export var speed: float = 100
 
 # Animation and direction tracking
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
