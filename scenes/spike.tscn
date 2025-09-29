@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://d04inbq5b4d6w"]
+
+[ext_resource type="Script" uid="uid://c7dbe33v5j3eo" path="res://scripts/spike.gd" id="1_7a7y0"]
+[ext_resource type="Texture2D" uid="uid://dgnyj1xxbpixg" path="res://assets/Top_Down_Adventure_Pack_v.1.0/Tiles_(animated)/Dungeon/spikes_tile_trap_anim_strip_12.png" id="2_d2mqm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_cx2lw"]
+size = Vector2(10, 10)
+
+[node name="spike" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_7a7y0")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_d2mqm")
+hframes = 12
+frame = 9
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_cx2lw")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

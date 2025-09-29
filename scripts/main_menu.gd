@@ -2,6 +2,8 @@ extends Control
 
 @onready var main_buttons: VBoxContainer = $MainButtons
 @onready var options: Panel = $Options
+@onready var scene_transition_animation: Node2D = $SceneTransitionAnimation
+@onready var animation_player: AnimationPlayer = $SceneTransitionAnimation/AnimationPlayer
 
 func _ready() -> void:
 	main_buttons.visible = true
