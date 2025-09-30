@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dgnyj1xxbpixg" path="res://assets/Top_Down_Adventure_Pack_v.1.0/Tiles_(animated)/Dungeon/spikes_tile_trap_anim_strip_12.png" id="2_d2mqm"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_cx2lw"]
-size = Vector2(10, 10)
+size = Vector2(16, 16)
 
 [node name="spike" type="Area2D"]
 collision_mask = 2
