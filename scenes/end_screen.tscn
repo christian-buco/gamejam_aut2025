@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://b8qj35osmn7en"]
+[gd_scene load_steps=11 format=3 uid="uid://b8qj35osmn7en"]
 
 [ext_resource type="Texture2D" uid="uid://b5ly3wyvj231e" path="res://assets/screenshot_demo.png" id="1_6e1uj"]
 [ext_resource type="Script" uid="uid://baifa061ytj8e" path="res://scripts/end_screen.gd" id="1_g44xs"]
@@ -9,6 +9,41 @@
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_87vmq"]
 texture = ExtResource("1_6e1uj")
 modulate_color = Color(0.5409905, 0.5409905, 0.5409905, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_g44xs"]
+bg_color = Color(1, 1, 1, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+expand_margin_left = 6.0
+expand_margin_right = 6.0
+shadow_size = 5
+shadow_offset = Vector2(0, 3.075)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vj8vg"]
+bg_color = Color(0.37413922, 0.37413928, 0.37413913, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+expand_margin_left = 7.0
+expand_margin_right = 7.0
+shadow_size = 5
+shadow_offset = Vector2(0, 3.075)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_plosh"]
+bg_color = Color(0.73300546, 0.73300546, 0.7330052, 1)
+corner_radius_top_left = 16
+corner_radius_top_right = 16
+corner_radius_bottom_right = 16
+corner_radius_bottom_left = 16
+expand_margin_left = 6.0
+expand_margin_right = 6.0
+shadow_size = 5
+shadow_offset = Vector2(0, 3.075)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4j4el"]
 
 [node name="EndScreen" type="Control"]
 layout_mode = 3
@@ -58,5 +93,51 @@ bus = &"Music"
 parameters/looping = true
 
 [node name="SceneTransitionAnimation" parent="." instance=ExtResource("5_vj8vg")]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -166.0
+offset_top = -155.0
+offset_right = 166.0
+offset_bottom = -113.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 30
+
+[node name="Play Again" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_g44xs")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vj8vg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_plosh")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_4j4el")
+text = "Play Again"
+
+[node name="Main Menu" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_focus_color = Color(0, 0, 0, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_colors/font_hover_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 30
+theme_override_styles/normal = SubResource("StyleBoxFlat_g44xs")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_vj8vg")
+theme_override_styles/hover = SubResource("StyleBoxFlat_plosh")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_4j4el")
+text = "Main Menu"
+
+[connection signal="pressed" from="HBoxContainer/Play Again" to="." method="_on_play_again_pressed"]
+[connection signal="pressed" from="HBoxContainer/Main Menu" to="." method="_on_main_menu_pressed"]
 
 [editable path="SceneTransitionAnimation"]

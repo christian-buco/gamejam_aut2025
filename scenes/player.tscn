@@ -13,9 +13,6 @@
 [ext_resource type="Texture2D" uid="uid://c1dai2aylk6hi" path="res://assets/Top_Down_Adventure_Pack_v.1.0/Char_Sprites/char_run_left_anim_strip_6.png" id="9_fulsm"]
 [ext_resource type="Texture2D" uid="uid://swq753skef50" path="res://assets/Top_Down_Adventure_Pack_v.1.0/Char_Sprites/char_run_up_anim_strip_6.png" id="10_4r5pv"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_3v2ag"]
-radius = 3.0
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_60mlk"]
 atlas = ExtResource("1_y4r1p")
 region = Rect2(0, 0, 48, 32)
@@ -583,15 +580,17 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_3v2ag"]
+radius = 3.0
+
 [node name="player" type="CharacterBody2D"]
 collision_layer = 2
 script = ExtResource("1_d2wvv")
 
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ljgr3")
+animation = &"idle_down"
+
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 3)
 shape = SubResource("CircleShape2D_3v2ag")
-
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_ljgr3")
-animation = &"attack_up"
-frame_progress = 0.17971873
